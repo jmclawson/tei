@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp-clawson.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="fr">Les indes galantes, Ballet en quatre Entrées, gravé en Musique</title>
+        <title type="alternative" xml:lang="fr">Les indes galantes</title>
+        <title type="alternative" xml:lang="en">The Galant Indies</title>
+        <author>
+          <persName>Louis Fuzelier</persName>
+        </author>
+        <respStmt>
+          <resp>opera composed by</resp>
+          <persName corresp="#jmclawson">Jean-Philippe Rameau</persName>
+        </respStmt>
+        <respStmt>
+          <resp>translated by</resp>
+          <persName corresp="#jmclawson">James M. Clawson</persName>
+        </respStmt>
+        <respStmt>
+          <resp>encoded by</resp>
+          <persName corresp="#jmclawson">James M. Clawson</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <ab><!-- copyright or copyleft information here --></ab>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <!-- source information here; better yet, use a <biblStruct> instead -->
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+
+    <body>
+      <div type="act">
+        <head>Prologue</head>
+        <stage type="setting">
+          <p xml:lang="fr" xml:id="pf1" corresp="#pe1">Le théâtre représente le <placeName
+              corresp="#palais_d_hebe">palais d'<persName corresp="#hebe"
+              >Hébé</persName></placeName> dans le fond, et ses jardins dans les ailes.</p>
+          <p xml:lang="en" xml:id="pe1" corresp="#pf1">The stage presents the <placeName
+              corresp="#palais_d_hebe">palace of <persName corresp="#hebe"
+              >Hebe</persName></placeName> in the background and her gardens in the foreground.</p>
+        </stage>
+
+        <stage type="music">Overture</stage>
+
+        <div type="scene">
+          <head>Scène 1</head>
+          <stage type="entrance">Hébé</stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="aabbbbbb">
+              <l n="3" xml:id="pf3" corresp="#pe3">Vous, qui d'<persName corresp="#hebe">Hébé</persName> suivez les <rhyme label="a">lois</rhyme>,</l>
+              <l n="4" xml:id="pf4" corresp="#pe4">Venez, rassemblez-vous, accourez à ma <rhyme label="a">voix</rhyme> !</l>
+              <l n="5" xml:id="pf5" corresp="#pe5">Vous chantez dès que l'aur<rhyme label="b">ore</rhyme></l>
+              <l n="6" xml:id="pf6" corresp="#pe6">Éclaire ce beau sé<rhyme label="b">jour</rhyme>:</l>
+              <l n="7" xml:id="pf7" corresp="#pe7">Vous commencez avec le <rhyme label="b">jour</rhyme></l>
+              <l n="8" xml:id="pf8" corresp="#pe8">Les jeux brillants de Terpsi<rhyme label="b">chore</rhyme> ;</l>
+              <l n="9" xml:id="pf9" corresp="#pe9">Les doux instants que vous donne l'Am<rhyme label="b">our</rhyme></l>
+              <l n="10" xml:id="pf10" corresp="#pe10">Vous sont plus chers en<rhyme label="b">core</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="3" xml:id="pe3" corresp="#pf3">You who follow the laws of <persName corresp="#hebe">Hebe</persName>,</l>
+              <l n="4" xml:id="pe4" corresp="#pf4">Come, gather together, rush to my voice!</l>
+              <l n="5" xml:id="pe5" corresp="#pf5">You sing as soon as dawn</l>
+              <l n="6" xml:id="pe6" corresp="#pf6">Brightens this beautiful abode:</l>
+              <l n="7" xml:id="pe7" corresp="#pf7">At daybreak you begin</l>
+              <l n="8" xml:id="pe8" corresp="#pf8">The brilliant games of Terpsichore;</l>
+              <l n="9" xml:id="pe9" corresp="#pf9">The sweet moments that Cupid gives you</l>
+              <l n="10" xml:id="pe10" corresp="#pf10">Are dearer still to you.</l>
+            </lg></lg>
+          </sp>
+        </div>
+
+        <div type="scene">
+          <head>Scène 2</head>
+          <stage type="scene">
+            <p xml:lang="fr" xml:id="pf11" corresp="#pe11"> Entréé des 4 nations. Troupe de jeunesse française, espagnole, italienne et polonaise, qui accourt et forme des danses gracieuses. </p>
+            <p xml:lang="en" xml:id="pe11" corresp="#pf11"> Entry of the four nations. Troop of French, Spanish, Italian, and Polish youth. They run to create graceful dances. </p>
+          </stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abbabba">
+              <l n="12" xml:id="pf12" corresp="#pe12">Amants sûrs de <rhyme label="a">plaire</rhyme>,</l>
+              <l n="13" xml:id="pf13" corresp="#pe13">Suivez votre ar<rhyme label="b">deur</rhyme>!</l>
+              <l n="14" xml:id="pf14" corresp="#pe14">Chantez votre bon<rhyme label="b">heur</rhyme>,</l>
+              <l n="15" xml:id="pf15" corresp="#pe15">Mais sans offenser le mys<rhyme label="a">tère</rhyme> !</l>
+              <l n="16" xml:id="pf16" corresp="#pe16">Il est pour un tendre <rhyme label="b">coeur</rhyme></l>
+              <l n="17" xml:id="pf17" corresp="#pe17">Des biens dont le secret augmente la dou<rhyme label="b">ceur</rhyme>.</l>
+              <l n="18" xml:id="pf18" corresp="#pe18">Songez qu'il faut les <rhyme label="a">taire</rhyme> !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="12" xml:id="pe12" corresp="#pf12">Lovers sure of pleasing,</l>
+              <l n="13" xml:id="pe13" corresp="#pf13">Follow your passion!</l>
+              <l n="14" xml:id="pe14" corresp="#pf14">Sing your happiness,</l>
+              <l n="15" xml:id="pe15" corresp="#pf15">But without disturbing the mysterious!</l>
+              <l n="16" xml:id="pe16" corresp="#pf16">For the tenderhearted,</l>
+              <l n="17" xml:id="pe17" corresp="#pf17">There are things made sweeter by subtlety.</l>
+              <l n="18" xml:id="pe18" corresp="#pf18">Remember what is best left unsaid!</l>
+            </lg></lg>
+          </sp>
+
+          <stage type="music">Air grave pour deux polonais</stage>
+
+          <stage type="music">1er Menuet</stage>
+
+          <stage type="music">2e Menuet</stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="aabab">
+              <l n="19" xml:id="pf19" corresp="#pe19">Musettes, résonnez dans ce riant bo<rhyme label="a">cage</rhyme>,</l>
+              <l n="20" xml:id="pf20" corresp="#pe20">Accordez-vous sous l'omb<rhyme label="a">rage</rhyme></l>
+              <l n="21" xml:id="pf21" corresp="#pe21">Au murmure des ruiss<rhyme label="b">eaux</rhyme>, </l>
+              <l n="22" xml:id="pf22" corresp="#pe22">Accompagnez le doux ra<rhyme label="a">mage</rhyme></l>
+              <l n="23" xml:id="pf23" corresp="#pe23">Des tendres ois<rhyme label="b">eaux</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="19" xml:id="pe19" corresp="#pf19">Bagpipes, resound in this laughing grove.</l>
+              <l n="20" xml:id="pe20" corresp="#pf20">In this shade, tune yourself</l>
+              <l n="21" xml:id="pe21" corresp="#pf21">To the murmur of streams.</l>
+              <l n="22" xml:id="pe22" corresp="#pf22">Join in the sweet warbling</l>
+              <l n="23" xml:id="pe23" corresp="#pf23">Of tender birds</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#choeur">Choeur</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="aabab">
+              <l n="24" xml:id="pf24" corresp="#pe24">Musettes, résonnez dans ce riant bo<rhyme label="a">cage</rhyme>,</l>
+              <l n="25" xml:id="pf25" corresp="#pe25">Accordez-vous sous l'omb<rhyme label="a">rage</rhyme></l>
+              <l n="26" xml:id="pf26" corresp="#pe26">Au murmure des ruiss<rhyme label="b">eaux</rhyme>, </l>
+              <l n="27" xml:id="pf27" corresp="#pe27">Accompagnez le doux ra<rhyme label="a">mage</rhyme></l>
+              <l n="28" xml:id="pf28" corresp="#pe28">Des tendres ois<rhyme label="b">eaux</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="24" xml:id="pe24" corresp="#pf24">Bagpipes, resound in this laughing grove.</l>
+              <l n="25" xml:id="pe25" corresp="#pf25">In this shade, tune yourself</l>
+              <l n="26" xml:id="pe26" corresp="#pf26">To the murmur of streams.</l>
+              <l n="27" xml:id="pe27" corresp="#pf27">Join in the sweet warbling</l>
+              <l n="28" xml:id="pe28" corresp="#pf28">Of tender birds</l>
+            </lg></lg>
+          </sp>
+
+          <stage type="music">Musette en rondeau</stage>
+
+          <stage type="direction">
+            <p xml:lang="fr" xml:id="pf29" corresp="#pe29">Bruit de tambours qui interrompt le ballet</p>
+            <p xml:lang="en" xml:id="pe29" corresp="#pf29">The sound of drums interrupts the ballet.</p>
+          </stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr">
+              <l n="30" xml:id="pf30" corresp="#pe30">Qu'entends-je ! Les tambours font taire nos musettes ?</l>
+              <l n="31" xml:id="pf31" corresp="#pe31">C'est Bellone ! Ses cris excitent les héros : </l>
+              <l n="32" xml:id="pf32" corresp="#pe32">Qu'elle va dérober de sujets à <placeName corresp="#paphos">Paphos</placeName> !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="30" xml:id="pe30" corresp="#pf30">What's that I hear? The <seg ana="#war">drums</seg> silence our bagpipes?</l>
+              <l n="31" xml:id="pe31" corresp="#pf31">It's <persName corresp="#bellona">Bellona</persName>! Her cries excite heroes:</l>
+              <l n="32" xml:id="pe32" corresp="#pf32">The <rs corresp="#bellona">thief</rs> will convert the followers of <placeName corresp="#paphos">Paphos</placeName>!</l>
+            </lg></lg>
+          </sp>
+        </div>
+
+        <div type="scene">
+          <head>Scène 3</head>
+          <stage type="scene">
+            <lg type="parallel"><lg xml:lang="fr">
+              <l n="33" xml:id="pf33" corresp="#pe33">Bellone, Hébé et sa suite.</l>
+              <l n="34" xml:id="pf34" corresp="#pe34">Bellone arrive au bruit des tambours et des trompettes qui la précèdent avec des guerriers portant des drapeaux. Elle invite la suite d'Hébé à n'aimer que la gloire.</l>
+            </lg>
+            <lg xml:lang="en">
+              <l n="33" xml:id="pe33" corresp="#pf33">Bellona, Hebe and her followers.</l>
+              <l n="34" xml:id="pe34" corresp="#pf34">Bellona arrives in the noise of drums and trumpets, preceded by warriors carrying flags. She invites the followers of Hebe to delight in her <seg ana="#fame">glory</seg>.</l>
+            </lg></lg>
+          </stage>
+
+          <sp>
+            <speaker corresp="#bellona">Bellone</speaker>
+            <stage type="delivery">
+              <lg type="parallel"><lg xml:lang="fr">
+                <l n="35" xml:id="pf35" corresp="#pe35">à la suite d'Hébé</l>
+              </lg>
+              <lg xml:lang="en">
+                <l n="35" xml:id="pe35" corresp="#pf35">to Hebe's followers</l>
+              </lg></lg>
+            </stage>
+
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abab">
+              <l n="36" xml:id="pf36" corresp="#pe36">La Gloire vous appelle : écoutez ses tromp<rhyme label="a">ettes</rhyme> !</l>
+              <l n="37" xml:id="pf37" corresp="#pe37">Hâtez-vous, armez-vous, et devenez guer<rhyme label="b">riers</rhyme> !</l>
+              <l n="38" xml:id="pf38" corresp="#pe38">Quittez ces paisibles retr<rhyme label="a">aites</rhyme> !</l>
+              <l n="39" xml:id="pf39" corresp="#pe39">Combattez, il est temps de cueillir des lau<rhyme label="b">riers</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="36" xml:id="pe36" corresp="#pf36">Glory calls you: listen to her trumpets!</l>
+              <l n="37" xml:id="pe37" corresp="#pf37">Hurry, arm yourselves, and become warriors!</l>
+              <l n="38" xml:id="pe38" corresp="#pf38">Leave <rs corresp="#europe">these <seg ana="#peace">peaceful</seg> havens</rs></l>
+              <l n="39" xml:id="pe39" corresp="#pe39">Fight, for it is time to gather <seg ana="#fame">laurels</seg>!</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#choeur">Choeur</speaker>
+            <stage type="direction">
+              <p xml:lang="fr" xml:id="pf40" corresp="#pe40">Les guerriers appellent les amants des nations alliées. Ces amants généreux se rangent près de Bellone, et suivent les étendards.</p>
+              <p xml:lang="en" xml:id="pe40" corresp="#pf40">The warriors call to the lovers of allied nations. These generous lovers arrange themselves near Bellona and follow the flags.</p>
+            </stage>
+
+            <lg type="parallel"> <lg xml:lang="fr">
+              <l n="41" xml:id="pf41" corresp="#pe41">La Gloire vous appelle : écoutez ses trompettes !</l>
+              <l n="42" xml:id="pf42" corresp="#pe42">Hâtez-vous, armez-vous, et devenez guerriers!</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="41" xml:id="pe41" corresp="#pf41">Glory calls you: listen to her trumpets!</l>
+              <l n="42" xml:id="pe42" corresp="#pf42">Hurry, arm yourselves, and become warriors!</l>
+            </lg></lg>
+
+          </sp>
+
+          <stage type="music">Air pour deux guerriers portant les drapeaux</stage>
+
+          <stage type="music">Air pour les amants et amantes qui suivent Bellone</stage>
+
+          <sp>
+            <speaker corresp="#choeur">Choeur</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abcbcbb">
+              <l n="43" xml:id="pf43" corresp="#pe43">Vous nous abandonn<rhyme label="a">ez</rhyme>.</l>
+              <l n="44" xml:id="pf44" corresp="#pe44">Quelle peine <rhyme label="b">mortelle</rhyme> !</l>
+              <l n="45" xml:id="pf45" corresp="#pe45">Que vont devenir nos beaux <rhyme label="c">jours</rhyme> !</l>
+              <l n="46" xml:id="pf46" corresp="#pe46">Quelle peine <rhyme label="b">mortelle</rhyme> !</l>
+              <l n="47" xml:id="pf47" corresp="#pe47">Écoutez les Am<rhyme label="c">ours</rhyme>.</l>
+              <l n="48" xml:id="pf48" corresp="#pe48">La Gloire nous app<rhyme label="b">elle</rhyme>,</l>
+              <l n="49" xml:id="pf49" corresp="#pe48">Nous n'écoutons qu'<rhyme label="b">elle</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="43" xml:id="pe43" corresp="#pf43">You abandon us.</l>
+              <l n="44" xml:id="pe44" corresp="#pf44">What mortal pain!!</l>
+              <l n="45" xml:id="pe45" corresp="#pf45">What will become of our beautiful days?</l>
+              <l n="46" xml:id="pe46" corresp="#pf46">What mortal pain!</l>
+              <l n="47" xml:id="pe47" corresp="#pf47">Listen to the cupids.</l>
+              <l n="48" xml:id="pe48" corresp="#pf48">Glory calls us,</l>
+              <l n="49" xml:id="pe49" corresp="#pf49">But we don't listen to her.</l>
+            </lg></lg>
+
+          </sp>
+        </div>
+
+        <div type="scene">
+          <head>Scène 4</head>
+          <stage type="scene">
+            <p xml:lang="fr" xml:id="pf50" corresp="#pe50">Hébé</p>
+            <p xml:lang="en" xml:id="pe50" corresp="#pf50">Hebe</p>
+          </stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="ababa">
+              <l n="51" xml:id="pf51" corresp="#pe51">Bellone les entr<rhyme label="a">aîne</rhyme>...</l>
+              <l n="52" xml:id="pf52" corresp="#pe52">O toi, vainqueur des <rhyme label="b">Cieux</rhyme>,</l>
+              <l n="53" xml:id="pf53" corresp="#pe53">Viens prouver ton pouvoir supr<rhyme label="a">ême</rhyme> !</l>
+              <l n="54" xml:id="pf54" corresp="#pe54">On ose te quitter pour suivre d'autres <rhyme label="b">Dieux</rhyme> !</l>
+              <l n="55" xml:id="pf55" corresp="#pe55">Fils de Vénus, ah ! qui peut mieux te venger que toi-<rhyme label="a">même</rhyme> ?</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="51" xml:id="pe51" corresp="#pf51">Bellona leads them away...</l>
+              <l n="52" xml:id="pe52" corresp="#pf52">O you, victor of the Heavens,</l>
+              <l n="53" xml:id="pe53" corresp="#pf53">Come prove your supreme power!</l>
+              <l n="54" xml:id="pe54" corresp="#pf54">They dare leave you to follow other gods!</l>
+              <l n="55" xml:id="pe55" corresp="#pf55">Ah, Son of Venus! Who better than you to avenge yourself?</l>
+            </lg></lg>
+          </sp>
+        </div>
+
+        <div type="scene">
+          <head>Scène 5</head>
+          <stage type="location,entrance,business">
+            <p xml:lang="fr" xml:id="pf56">L'Amour, Hébé, suite de Hébé. L'Amour descend des cieux sur des nuages ; il porte des traits nouveaux ; il est accompagné d'une troupe d'Amours armés comme lui, dont les uns tiennent des brandons et les autres arborent des étendards galants. Annonce de l'Amour</p>
+            <p xml:lang="en" xml:id="pe56">Cupid, Hebe, followers of Hebe. Cupid descends from the heavens on a cloud; he carries new darts; he is accompanied by a troupe of cupids armed like him, some of whom hold torches, while others boast gallant flags. Cupid's arrival is announced.</p>
+          </stage>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr">
+              <l n="57" xml:id="pf57" corresp="#pe57">L'Amour paraît armé, qu'il soit victorieux !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="57" xml:id="pe57" corresp="#pf7">Cupid appears armed. Let him be victorious!</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#amour">L'Amour</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abab">
+              <l n="58" xml:id="pf58" corresp="#pe58">Pourquoi Mars à l'Amour déclara-t-il la <rhyme label="a">guerre</rhyme> ? </l>
+              <l n="59" xml:id="pf59" corresp="#pe59">Mars perd-t-il son encens, lorsqu'on vient m'en offr<rhyme label="b">ir</rhyme> ?</l>
+              <l n="60" xml:id="pf60" corresp="#pe60">Jamais les myrthes sur la <rhyme label="a">terre</rhyme></l>
+              <l n="61" xml:id="pf61" corresp="#pe61">N'ont empêché les lauriers de fleur<rhyme label="b">ir</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="58" xml:id="pe58" corresp="#pf58">Why did Mars declare war against Cupid?</l>
+              <l n="59" xml:id="pe59" corresp="#pf59">Does Mars lose his incense when someone offers some to me?</l>
+              <l n="60" xml:id="pe60" corresp="#pf60">Never have the myrtles on earth</l>
+              <l n="61" xml:id="pe61" corresp="#pf61">Prevented the laurels from blooming.</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#hebe">Hébé</speaker>
+            <stage type="delivery">
+              <p xml:lang="fr" xml:id="pf62" corresp="#pe62">à l'Amour</p>
+              <p xml:lang="en" xml:id="pe62" corresp="#pf62">to Cupid</p>
+            </stage>
+
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abba">
+              <l n="63" xml:id="pf63" corresp="#pe63">Pour remplacer les coeurs que vous ravit Bell<rhyme label="a">one</rhyme>,</l>
+              <l n="64" xml:id="pf64" corresp="#pe64">Fils de Vénus, lancez vos traits les plus cer<rhyme label="b">tains</rhyme> ;</l>
+              <l n="65" xml:id="pf65" corresp="#pe65">Conduisez les plaisirs dans les climats loin<rhyme label="b">tains</rhyme>,</l>
+              <l n="66" xml:id="pf66" corresp="#pe66">Quand l'Europe les aband<rhyme label="a">onne</rhyme> !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="63" xml:id="pe63" corresp="#pf63">In order to change the hearts charmed by Bellona,</l>
+              <l n="64" xml:id="pe64" corresp="#pf64">Son of Venus, launch your darts with certainty;</l>
+              <l n="65" xml:id="pe65" corresp="#pf65">Tend to the pleasures in distant lands,</l>
+              <l n="66" xml:id="pe66" corresp="#pf66">Since Europe abandons them!</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#amour">L'Amour</speaker>
+            <stage type="delivery">
+              <p xml:lang="fr" xml:id="pf67" corresp="#pe67">à sa suite</p>
+              <p xml:lang="en" xml:id="pe67" corresp="#pf67">to his followers</p>
+            </stage>
+
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abab">
+              <l n="68" xml:id="pf68" corresp="#pe68">Ranimez vos flambeaux, remplissez vos car<rhyme label="a">quois</rhyme>,</l>
+              <l n="69" xml:id="pf69" corresp="#pe69">Moisonnez, méritez les palmes les plus <rhyme label="b">belles</rhyme> !</l>
+              <l n="70" xml:id="pf70" corresp="#pe70">Amours, remportez, à la <rhyme label="a">fois</rhyme>,</l>
+              <l n="71" xml:id="pf71" corresp="#pe71">Cent victoires nouv<rhyme label="b">elles</rhyme> !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="68" xml:id="pe68" corresp="#pf68">Rekindle your torches, replenish your quivers,</l>
+              <l n="69" xml:id="pe69" corresp="#pf69">Reap, earn palm leaves of those faithful to Love!</l>
+              <l n="70" xml:id="pe70" corresp="#pf70">Cupids, achieve a hundred new victories</l>
+              <l n="71" xml:id="pe71" corresp="#pf71">All at once!</l>
+            </lg></lg>
+
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abab">
+              <l n="72" xml:id="pf72" corresp="#pe72">L'horreur suit le terrible <rhyme label="a">Mars</rhyme> ;</l>
+              <l n="73" xml:id="pf73" corresp="#pe73">Les Jeux s'amusent sur vos <rhyme label="b">traces</rhyme>,</l>
+              <l n="74" xml:id="pf74" corresp="#pe74">Partez, partez, vos nouveaux étend<rhyme label="a">ards</rhyme></l>
+              <l n="75" xml:id="pf75" corresp="#pe75">Sont l'ouvrage des <rhyme label="b">Grâces</rhyme>.</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="72" xml:id="pe72" corresp="#pf72">Horror follows terrible Mars;</l>
+              <l n="73" xml:id="pe73" corresp="#pf73">But games amuse themselves in your footsteps.</l>
+              <l n="74" xml:id="pe74" corresp="#pf74">Go, go, for your new flags</l>
+              <l n="75" xml:id="pe75" corresp="#pf75">Are made by the Graces themselves.</l>
+            </lg></lg>
+          </sp>
+
+          <stage type="music">Air pour les Amours</stage>
+
+          <sp>
+            <speaker>L'Amour, Hébé</speaker>
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abacac">
+              <l n="76" xml:id="pf76" corresp="#pe76">Traversez les plus vastes <rhyme label="a">mers</rhyme>,</l>
+              <l n="77" xml:id="pf77" corresp="#pe77">Volez, volez, Amours, volez, <rhyme label="b">volez</rhyme> !</l>
+              <l n="78" xml:id="pf78" corresp="#pe78">Portez vos armes et vos <rhyme label="a">fers</rhyme></l>
+              <l n="79" xml:id="pf79" corresp="#pe79">Sur le plus éloigné riv<rhyme label="c">age</rhyme> !</l>
+              <l n="80" xml:id="pf80" corresp="#pe80">Est-il un coeur dans l'uni<rhyme label="a">vers</rhyme></l>
+              <l n="81" xml:id="pf81" corresp="#pe81">Qui ne vous doive son homm<rhyme label="c">age</rhyme> ?</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="76" xml:id="pe76" corresp="#pf76">Cross the widest seas,</l>
+              <l n="77" xml:id="pe77" corresp="#pf77">Fly, fly, cupids, fly, fly!</l>
+              <l n="78" xml:id="pe78" corresp="#pf78">Bring your <seg ana="#war">weapons</seg> and your <seg ana="#slavery">chains</seg></l>
+              <l n="79" xml:id="pe79" corresp="#pf79">To the farthest shore!</l>
+              <l n="80" xml:id="pe80" corresp="#pf80">Is there a heart in the universe</l>
+              <l n="81" xml:id="pe81" corresp="#pf81">Who should not give you his tribute?</l>
+            </lg></lg>
+          </sp>
+
+          <sp>
+            <speaker corresp="#choeur">Choeur</speaker>
+            <stage type="business">
+              <p xml:lang="fr" xml:id="pf82" corresp="#pe82">Les Amours s'envolent pendant le choeur et se dispersent loin de l'Europe dans les différents climats de l'Inde.</p>
+              <p xml:lang="en" xml:id="pe82" corresp="#pf82">The cupids fly during the chorus and disperse themselves, far from Europe, in the different climes of the Indies</p>
+            </stage>
+
+            <lg type="parallel"><lg xml:lang="fr" rhyme="abac">
+              <l n="83" xml:id="pf83" corresp="#pe83">Traversez les plus vastes <rhyme label="a">mers</rhyme>,</l>
+              <l n="84" xml:id="pf84" corresp="#pe84">Volez, volez, Amours, volez, <rhyme label="b">volez</rhyme> !</l>
+              <l n="85" xml:id="pf85" corresp="#pe85">Portez vos armes et vos <rhyme label="a">fers</rhyme></l>
+              <l n="86" xml:id="pf86" corresp="#pe86">Sur le plus éloigné riv<rhyme label="c">age</rhyme> !</l>
+            </lg>
+
+            <lg xml:lang="en">
+              <l n="83" xml:id="pe83" corresp="#pf83">Cross the widest seas,</l>
+              <l n="84" xml:id="pe84" corresp="#pf84">Fly, fly, cupids, fly, fly!</l>
+              <l n="85" xml:id="pe85" corresp="#pf85">Bring your <seg ana="#war">weapons</seg> and your <seg ana="#slavery">chains</seg></l>
+              <l n="86" xml:id="pe86" corresp="#pf86">To the farthest shore!</l>
+            </lg></lg>
+          </sp>
+        </div>
+
+      </div>
+    </body>
+
+
+    <back>
+      <!-- here is a sample place for contextual information, if any -->
+      <listPerson>
+        <head>People</head>
+        <person xml:id="bellona" sex="F" role="god">
+          <persName xml:lang="en">Bellona</persName>
+          <persName xml:lang="fr">Bellone</persName>
+          <occupation>Roman goddess of war</occupation>
+        </person>
+
+        <person xml:id="amour" sex="M" role="god">
+          <persName xml:lang="en">Cupid</persName>
+          <persName xml:lang="fr">L'Amour</persName>
+          <trait>
+            <label>Description:</label>
+            <desc>Representational god of love</desc>
+            <label>Note of translation:</label>
+            <desc>The name used in the original French, <foreign xml:lang="fr">L'Amour</foreign>, is
+              ambiguous. Literally, his name means "Love," so he is a personification of the idea,
+              but he later appears accompanied "<foreign xml:lang="fr">d'une troupe
+                d'Amours</foreign>" 'by a troup of loves,' and they are all armed with darts, or
+              arrows. The closest common English approximation to this god of love, then, is Cupid,
+              the Roman equivalent of the Greek Eros, more typically known in French as <foreign
+                xml:lang="fr">Cupidon</foreign> and <foreign xml:lang="fr">Éros</foreign>,
+              respectively. Cupid is often loosely interchanged with the Erotes, a plurality of
+              Cupidines or "cupids," similarly depicted as winged youths (<rs corresp="#smith-dict"
+                >Schmitz, "Eros" 50</rs>). Fuzelier's choice of naming him <foreign xml:lang="fr"
+                >L'Amour</foreign> over the equally acceptable <foreign xml:lang="fr"
+                >Cupidon</foreign> is a choice that, in the original, narrows the distance between
+              the individual and what he represents.</desc>
+          </trait>
+        </person>
+
+        <person xml:id="hebe" sex="F" role="god">
+          <persName xml:lang="en">Hebe</persName>
+          <persName xml:lang="fr">Hébé</persName>
+          <trait>
+            <label>Description:</label>
+            <desc>Greek personification of youth and goddess of youthfulness</desc>
+          </trait>
+          <residence corresp="#palais_d_hebe">Palace of Hebe</residence>
+        </person>
+
+        <person xml:id="mars" sex="M" role="god">
+          <persName>Mars</persName>
+          <trait>
+            <label>Description:</label>
+            <desc>Mars is a Roman god of war.</desc>
+          </trait>
+        </person>
+
+        <person xml:id="terpsichore" sex="F" role="muse">
+          <persName>Terpsichore</persName>
+          <trait>
+            <label>Description:</label>
+            <desc>Greek muse of dance and choral singing</desc>
+          </trait>
+        </person>
+
+        <person xml:id="venus" sex="F" role="god">
+          <persName xml:lang="en">Venus</persName>
+          <persName xml:lang="fr">Vénus</persName>
+          <trait>
+            <label>Description:</label>
+            <desc>The Roman goddess of love, whose Greek counterpart was Aphrodite. Venus was the mother of <persName corresp="#amour">Cupid</persName>.</desc>
+          </trait>
+        </person>
+        
+        <person xml:id="jmclawson">
+          <persName>James Clawson</persName>
+        </person>
+
+
+      </listPerson>
+
+      <listPlace>
+        <head>Locations</head>
+        
+        <place xml:id="europe">
+          <placeName>Europe</placeName>
+        </place>
+        
+        <place xml:id="palais_d_hebe">
+          <placeName>Palace of Hebe</placeName>
+        </place>
+
+        <place xml:id="paphos">
+          <placeName>Paphos</placeName>
+        </place>
+      </listPlace>
+      
+      <interpGrp resp="#jmclawson" type="colonialism">
+        <interp xml:id="fame">Fame</interp>
+        <interp xml:id="peace">Peace</interp>
+        <interp xml:id="slavery">Slavery</interp>
+        <interp xml:id="war">War</interp>
+      </interpGrp>
+
+      <listBibl>
+        <head>Bibliographic Notes</head>
+        <bibl xml:id="smith-dict">
+          <editor>Smith, William, ed</editor>. <title>Dictionary of Greek and Roman Biography and Mythology</title>. 3 vols. <pubPlace>Boston</pubPlace>: <publisher>Little, Brown, and Co.</publisher>, <date when="1867">1867</date>. </bibl>
+      </listBibl>
+    </back>
+  </text>
+</TEI>
