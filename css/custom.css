@@ -1,0 +1,142 @@
+/* Place project-specific CSS here */
+
+lg:lang(fr) {
+    display: block;
+}
+
+lg:lang(en) {
+    display: none;
+}
+
+stage p:lang(fr) {
+    display: block;
+    width: 20em;
+}
+
+stage p:lang(en) {
+    display: none;
+}
+
+stage lg:lang(fr) {
+    display: block;
+    width: 20em;
+}
+
+stage lg:lang(en) {
+    display: none;
+}
+
+speaker{
+    display:block;
+    height:1em;
+}
+
+lg[type="parallel"] {
+    position: relative;
+}
+
+lg[type="parallel"]:hover lg:lang(en) {
+    display: block;
+    position: absolute;
+    top:-1em;
+    left:25em;
+    width: 20em;
+    /* border-left: 12px; */
+    /* border-color: black; */
+}
+
+lg[type="parallel"]:hover lg:lang(fr) {
+    width: 100%;
+    }
+
+stage {
+    position: relative;
+}
+
+stage:hover p:lang(en) {
+    display: block;
+    position: absolute;
+    top:-1em;
+    left:25em;
+    width: 20em;
+    /* border-left: 12px; */
+    /* border-color: black; */
+}
+
+stage:hover p:lang(fr) {
+/*    width: 100%;*/
+    }
+
+stage[type="scene"]:hover lg:lang(en) {
+    display: block;
+    position: absolute;
+    top:-1em;
+    left:25em;
+    width: 20em;
+    /* border-left: 12px; */
+    /* border-color: black; */
+}
+
+stage[type="scene"]:hover lg:lang(fr) {
+    width: 20em;
+    }
+
+
+/*speaker {
+    text-indent:-9999px; 
+    line-height: 0;
+    }*/
+
+/*speaker::after {
+    display: block; 
+    line-height: initial;
+    text-indent: 0;
+    font-size: 0px; 
+    }
+
+speaker[corresp="#hebe"]::after {
+    content: "\01F478"; 
+    }
+
+speaker[corresp="#choeur"]::after {
+    content: "\01F3AD";
+    }
+
+speaker[corresp="#bellona"]::after {
+    content: "\01F5FD";
+    }
+
+speaker[corresp="#amour"]::after {
+    content: "\01F47C";
+    }
+*/
+stage[type="music"]::after {
+    content: "\01F3B6";
+    }
+
+#teibpToolbox {
+  left: 68em;
+}
+
+sp[who='#persCOMEY'] p {
+    border-width: 0px;
+	border-style: dashed;
+	border-color: purple;
+}
+
+/* Republicans */
+sp[who='#persBURR'] p, sp[who='#persRISCH'] p, sp[who='#persRUBIO'] p, sp[who='#persCOLLINS'] p, sp[who='#persBLUNT'] p, sp[who='#persLANKFORD'] p, sp[who='#persCOTTON'] p, sp[who='#persCORNYN'] p {
+    border-width: 0px;
+	border-style: solid;
+	border-color: red;
+}
+sp[who='#persBURR'], sp[who='#persRISCH'], sp[who='#persRUBIO'], sp[who='#persCOLLINS'], sp[who='#persBLUNT'], sp[who='#persLANKFORD'], sp[who='#persCOTTON'], sp[who='#persCORNYN'] {
+    padding-left: 24em;
+}
+
+/* Democrats */
+sp[who='#persWARNER'] p, sp[who='#persFEINSTEIN'] p, sp[who='#persWYDEN'] p, sp[who='#persHEINRICH'] p, sp[who='#persKING'] p, sp[who='#persMANCHIN'] p, sp[who='#persHARRIS'] p {
+    border-width: 0px;
+	border-style: solid;
+	border-color: blue;
+}
