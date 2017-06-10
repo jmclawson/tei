@@ -1,2 +1,2 @@
-# tei-new
+# tei
 Playing around with TEI documents
