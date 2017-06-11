@@ -7,15 +7,16 @@
       <titleStmt>
         <title xml:id="fulltitle">James Comey's Testimony before Congress</title>
         <author>
-          <persName><!-- author's name here --></persName>
+          <persName>transcribed by Politico Staff</persName>
         </author>
+        <respStmt>encoded by James M. Clawson</respStmt>
       </titleStmt>
       <publicationStmt>
         <ab><!-- copyright or copyleft information here --></ab>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <!-- source information here; better yet, use a <biblStruct> instead -->
+          adapted from <title type="j">Politico</title>'s <title type="a" corresp="http://www.politico.com/story/2017/06/08/full-text-james-comey-trump-russia-testimony-239295">Full text: James Comey testimony transcript on Trump and Russia</title>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -2941,41 +2942,105 @@
     </body>
     <back>
       <listPerson>
-        <person xml:id="persCOMEY">
+        <person xml:id="persCOMEY" sameAs="http://viaf.org/viaf/16938946">
           <persName>James Comey</persName>
+          <occupation>former FBI director</occupation>
         </person>
         
-        <person xml:id="persFEINSTEIN">
-          <persName>Senator Dianne Feinstein</persName>
-        </person>
+        <!-- repub senators -->
+          
+          <person xml:id="persBLUNT" sameAs="http://viaf.org/viaf/1547429">
+            <persName>Roy Blunt</persName>
+            <occupation>senator from <placeName>Missouri</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persBURR">
+            <persName>Richard Burr</persName>
+            <occupation>senator from <placeName>North Carolina</placeName></occupation>
+          </person>
+          
+          <person xml:id="persCOLLINS" sameAs="http://viaf.org/viaf/263085171">
+            <persName>Susan Collins</persName>
+            <occupation>senator from <placeName>Maine</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persCORNYN" sameAs="http://viaf.org/viaf/19357119">
+            <persName>John Cornyn</persName>
+            <occupation>senator from <placeName>Texas</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persCOTTON">
+            <persName>Tom Cotton</persName>
+            <occupation>senator from <placeName>Arkansas</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persLANKFORD">
+            <persName>James Lankford</persName>
+            <occupation>senator from <placeName>Oklahoma</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persRISCH" sameAs="http://viaf.org/viaf/46199297">
+            <persName>James Risch</persName>
+            <occupation>senator from <placeName>Idaho</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
+          <person xml:id="persRUBIO" sameAs="http://viaf.org/viaf/186893969">
+            <persName>Marco Rubio</persName>
+            <occupation>senator from <placeName>Florida</placeName></occupation>
+            <affiliation>Republican</affiliation>
+          </person>
+          
         
-        <person xml:id="persBURR">
-          <persName>Senator Richard Burr</persName>
-        </person>
         
-        <person xml:id="persWARNER">
-          <persName>Senator Mark Warner</persName>
-        </person>
+        <!-- dem senators -->
+          <person xml:id="persFEINSTEIN" sameAs="http://viaf.org/viaf/26242096">
+            <persName>Dianne Feinstein</persName>
+            <occupation>senator from <placeName>California</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persHARRIS" sameAs="http://viaf.org/viaf/91053810">
+            <persName>Kamala Harris</persName>
+            <occupation>senator from <placeName>California</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persHEINRICH" sameAs="http://viaf.org/viaf/306255081">
+            <persName>Martin Heinrich</persName>
+            <occupation>senator from <placeName>New Mexico</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persMANCHIN" sameAs="http://viaf.org/viaf/58444163">
+            <persName>Joe Manchin</persName>
+            <occupation>senator from <placeName>West Virginia</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persKING" sameAs="http://viaf.org/viaf/38606512">
+            <persName>Angus King</persName>
+            <occupation>senator from <placeName>Maine</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persWARNER" sameAs="http://viaf.org/viaf/66133217">
+            <persName>Mark Warner</persName>
+            <occupation>senator from <placeName>Virginia</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
+          
+          <person xml:id="persWYDEN" sameAs="http://viaf.org/viaf/101477044">
+            <persName>Ron Wyden</persName>
+            <occupation>senator from <placeName>Oregon</placeName></occupation>
+            <affiliation>Democrat</affiliation>
+          </person>
         
-        <person xml:id="persRISCH">
-          <persName>Senator James Risch</persName>
-        </person>
-        
-        <person xml:id="persRUBIO">
-          <persName>Senator Marco Rubio</persName>
-        </person>
-        
-        <person xml:id="persWYDEN">
-          <persName>Senator Ron Wyden</persName>
-        </person>
-        
-        <person xml:id="persCOLLINS">
-          <persName>Senator Susan Collins</persName>
-        </person>
-        
-        <person xml:id="persHEINRICH">
-          <persName>Senator Martin Heinrich</persName>
-        </person>
       </listPerson>
       <!--  -->
     </back>
