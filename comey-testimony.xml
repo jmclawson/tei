@@ -7,9 +7,15 @@
       <titleStmt>
         <title xml:id="fulltitle">James Comey's Testimony before Congress</title>
         <author>
-          <persName>transcribed by Politico Staff</persName>
+          <!--  -->
         </author>
-        <respStmt>encoded by James M. Clawson</respStmt>
+        <respStmt>
+          <resp>transcribed by</resp> <orgName>Politico Staff</orgName>
+        </respStmt>
+        <respStmt>
+          <resp>encoded by</resp>
+          <persName>James M. Clawson</persName>
+        </respStmt>
       </titleStmt>
       <publicationStmt>
         <ab><!-- copyright or copyleft information here --></ab>
